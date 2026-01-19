@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #d3fcdf;
+  color: #1f2933;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título */
+h1 {
+  margin-top: 20px;
+  color: #065f46;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+/* Caixa de busca */
+.search-box {
+  margin: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #9ca3af;
+}
+
+button {
+  background: #0ef8a2;
+  color: #064e3b;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1dd189;
+}
+
+/* Lista de resultados */
+#resultados div {
+  background: #09ee78;
+  margin: 10px auto;
+  padding: 10px;
+  width: 280px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+#resultados div:hover {
+  background: #21e98c;
+}
+
+/* CARD DO ANIME */
+.card-anime {
+  margin: 30px auto;
+  width: 320px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* IMAGEM */
+.card-anime img {
+  width: 100%;
+  border-radius: 12px;
+  border: 3px solid #ffffff;
+  margin-bottom: 10px;
+}
+
+/* INFORMAÇÕES */
+.card-anime .info {
+  background: #f0fdf4;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-anime h2 {
+  color: #065f46;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+.card-anime p {
+  margin: 5px 0;
+  color: #1f2933;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px #ffffff;
+}
